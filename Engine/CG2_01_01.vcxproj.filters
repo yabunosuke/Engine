@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Common\Singleton.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Screen.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\SystemMain.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Looper.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Time.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Texture.cpp">
+      <Filter>System\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\TextureManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="System\DirectXCommon.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\include\imgui.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\include\imgui_draw.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\include\imgui_impl_dx12.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\include\imgui_impl_win32.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\include\imgui_tables.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\include\imgui_widgets.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\PipelineManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Input.cpp">
+      <Filter>System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Render\MulutiRenderTarget.cpp">
+      <Filter>System\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineUI.cpp" />
+    <ClCompile Include="ImGui\ImGuiEx.cpp">
+      <Filter>lib\Third party</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\GameObjectManager.cpp" />
+    <ClCompile Include="Common\EntityFolders.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{9bfeba63-78cf-4c4e-9c6b-4779d71a3c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{c082a98b-8313-4c52-ad73-9c1f75cd9ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{621002d1-362d-4aef-b931-6895a285cd86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{8e5a1752-ea02-4072-991e-6a933c3bbdee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Texture">
+      <UniqueIdentifier>{d9d21597-764c-40c4-8c69-f70368c39520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{970530d5-ce22-47c5-83fb-b3b252b6d477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\Third party">
+      <UniqueIdentifier>{6bd128a2-4ea9-4c5d-ba25-f0e6f60945ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{108a5ae9-2d18-43e4-98ff-6fcc21186702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Scene">
+      <UniqueIdentifier>{2294ca71-0aa6-4774-92e4-5b3b17a2cbd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Input">
+      <UniqueIdentifier>{1ebaadc9-b025-41e9-92e4-739e20bef41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Render">
+      <UniqueIdentifier>{f16b8f75-7d03-409b-ad40-d605008a82db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="System\SystemMain.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Singleton.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Screen.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Property.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Looper.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Time.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Mathf.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Texture.h">
+      <Filter>System\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\TextureManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="System\DirectXCommon.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui\include\imconfig.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui\include\imgui.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui\include\imgui_impl_dx12.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui\include\imgui_impl_win32.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui\include\imgui_internal.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\PipelineManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Scene\IoChangedListener.h">
+      <Filter>System\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Input.h">
+      <Filter>System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Render\MulutiRenderTarget.h">
+      <Filter>System\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineUI.h" />
+    <ClInclude Include="ImGui\ImGuiEx.h">
+      <Filter>lib\Third party</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\GameObjectManager.h" />
+    <ClInclude Include="Common\EntityFolders.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\GBuffer.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\Deferred.hlsli">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\GbufferPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\GBufferVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\DeferredPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\DeferredVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
